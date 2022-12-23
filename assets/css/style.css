@@ -1,0 +1,136 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: #e2e8f0;
+  background-image: url(../images/tarde.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 97%;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  border-radius: 12px;
+  transition-duration: 300ms;
+  padding: .5rem;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  border-radius: 12px;
+  transition-duration: 300ms;
+  padding: .5rem;
+}
+
+.weather-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.clock:hover,.weather:hover {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.welcome-text {
+  font-size: 48px;
+  margin: 2rem 0;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 90vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  -webkit-backdrop-filter: blur(3.1px);
+  height: 300px;
+  width: 300px;
+  padding: 1rem;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card h2 {
+ font-size: 18px;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(74, 74, 74, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  transition-duration: 200ms;
+  width: 50px;
+  height: 50px;
+}
+
+.icon:hover {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.by {
+  font-weight: bold;
+ text-transform: uppercase;
+ margin: 4rem 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #5eead4;
+  transition-duration: 200ms;
+}
+
+.link:hover {
+  color: #67e8f9;
+}
