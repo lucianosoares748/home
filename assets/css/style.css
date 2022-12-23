@@ -59,20 +59,17 @@ header {
   gap: 10px;
 }
 
-.main-content > .welcome-text > #day-time {
-  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
-  font-weight: bold;
-  color: #000000;
-}
-.main-content > .welcome-text {
-  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
-  font-weight: bold;
-  color: #000000;
-}
-
 .welcome-text {
-  font-size: 48px;
+  font-size: 24px;
   margin: 2rem 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-right: 6rem;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .card-section {
