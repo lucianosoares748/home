@@ -59,10 +59,15 @@ header {
   gap: 10px;
 }
 
-.main-content > .welcome-text > span {
+.main-content > .welcome-text > #day-time {
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
   font-weight: bold;
-  color: #2892e9;
+  color: #000000;
+}
+.main-content > .welcome-text {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  color: #000000;
 }
 
 .welcome-text {
