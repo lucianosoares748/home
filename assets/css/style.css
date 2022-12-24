@@ -60,6 +60,7 @@ header {
 }
 
 .welcome-text {
+  display: flex;
   font-size: 24px;
   margin: 2rem 0;
   width: 100%;
@@ -70,6 +71,11 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #ffffff;
+}
+
+.welcome-text:hover {
+  color: #5eead4;
+  transition: 0.9s;
 }
 
 .card-section {
@@ -96,21 +102,14 @@ header {
   padding: 1rem;
 }
 
-/* .card:hover {
+.card:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  color: #5eead4;
   transition: 30ms;
 
-  transition: all 0.5s;
+  transition: all 0.9s;
   cursor: pointer;
-} */
-
-.card:hover {
-  transition: all 0.5s;
-  cursor: pointer;
-
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
-  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
 .card-content {
@@ -119,6 +118,11 @@ header {
   flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
+}
+
+.card:hover {
+  color: #5eead4;
+  transition: 0.9s;
 }
 
 .card h2 {
@@ -139,12 +143,6 @@ header {
   transition-duration: 200ms;
   width: 50px;
   height: 50px;
-}
-
-.icon:hover {
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-    0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .by {
